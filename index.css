@@ -1,0 +1,68 @@
+body{
+background-color: #740A03;
+display:flex;
+justify-content: center;
+align-items: center;
+min-height: 100vH;
+margin:0;
+flex-direction: column;
+
+}
+
+
+
+.cards{
+    width:50%;
+    gap:20px;
+display:flex;
+justify-content: space-between;
+flex-wrap: wrap;
+flex-direction: row;
+
+
+
+
+}
+
+
+img{
+    width:250px;
+    height:400px;
+    transition: transform 0.4s ease;
+    border:10px;
+box-shadow: 5px 5px 5px black;
+
+}
+
+img:hover{
+   transform: rotateX(20deg) rotateY(-20deg);
+}
+
+
+h1{
+    
+    font-size:30px;
+     font-family: "Cascadia Mono", sans-serif;
+ color:white;
+}
+
+.res{
+    width:20%;
+    height:50%;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:100px;
+    width: 95%;
+    height:fit-content;
+}
+
+p{ font-size:30px;
+     font-family: "Cascadia Mono", sans-serif;
+ color:white
+
+}
